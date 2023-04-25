@@ -1,11 +1,11 @@
-Flexi-IM-Server 是一个高性能、可扩展的即时通讯(IM) 服务器，旨在为 Web 和移动端提供实时聊天功能。该服务器基于 Golang 开发，并支持原生 TCP 和 WebSocket 协议。Flexi-IM-Server 可与 Flexi-IM-Webapp 和 Flexi-IM-Mobile 前端项目无缝集成。
+Flexi-IM-Server is a high-performance, scalable instant messaging (IM) server designed to provide real-time chat functionality for Web and mobile platforms. The server is developed using Golang and supports native TCP and WebSocket protocols. Flexi-IM-Server seamlessly integrates with the Flexi-IM-Webapp and Flexi-IM-Mobile frontend projects.
 
-功能
-支持原生 TCP 和 WebSocket 协议
-心跳检测和连接管理
-用户身份验证
-一对一聊天
-群聊功能
-消息广播
-离线消息存储
-接收回执
+## Features
+- Supports native TCP and WebSocket protocols
+- Heartbeat detection and connection management
+- User authentication
+- One-to-one chat
+- Group chat functionality
+- Message broadcasting
+- Offline message storage
+- Receipt acknowledgment
