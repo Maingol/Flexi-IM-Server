@@ -9,6 +9,3 @@ Flexi-IM-Server is a high-performance, scalable instant messaging (IM) server de
 - Message broadcasting
 - Offline message storage
 - Receipt acknowledgment
-
-
-test for push
