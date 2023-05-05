@@ -16,7 +16,7 @@ var upgrader = websocket.Upgrader{
 }
 
 func StartWebSocketServer(address string) {
-	http.HandleFunc("/ws", handleWebSocketConnection)
+	http.HandleFunc("/connect", handleWebSocketConnection)
 	fmt.Println("WebSocket server is listening on", address)
 	err := http.ListenAndServe(address, nil)
 	if err != nil {
